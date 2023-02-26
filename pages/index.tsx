@@ -1,10 +1,9 @@
-import Head from "next/head";
-import Image from "next/image";
+import Header from "../components/Header";
 
 const Home = () => {
   return (
     <div className="">
-      <h1>Ebay Clone</h1>
+      <Header />
     </div>
   );
 };
